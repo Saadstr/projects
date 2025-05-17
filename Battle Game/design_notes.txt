@@ -1,0 +1,4 @@
+I moved the engage and remove ship functions from the fleet class and moved them to the skirmish class.
+I inheritied the atributes of the Fleet class into the SKirmish class
+This was done because it would make sense for the fleet class to create the fleets and another class to actually have the battle.
+Modified the main function so instead of calling fleet it calls skirmish.
